@@ -44,7 +44,7 @@ theHarvester -d brave.com -b crtsh
 ## Passive Recon Findings
 Additional passive reconnaissance was conducted using public platforms, such as URLScan. 
 
-## The collected URLs, IPs and hosts represent:
+## The collected URLs, IPs, and hosts represent:
 - Historical observations of website activity
 - External resources and third-party services
 - CDN and infrastructure exposure
