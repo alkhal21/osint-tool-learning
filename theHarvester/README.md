@@ -25,18 +25,19 @@ The goal of this exercise was not just to run the tool, but to understand:
 ### Basic Command Structure
 ```bash
 theHarvester -d <domain> -b <backend(source)> -l <limit>
+```
 
 ### Example Commands Used
-```bash
+```bash```
 theHarvester -d example.com -b all
 theHarvester -d example.com -b google -l 500
 theHarvester -d example.com -b bing
 theHarvester -d example.com -b duckduckgo
 theHarvester -d example.com -b crtsh
 theHarvester -d brave.com -b crtsh
+```
 
-
-## Backend Observations 
+## Backend Observations
 - Google backend frequently returns no results due to rate limiting and bot detection
 - Certificate Transparency (crt.sh) provides reliable subdomain data
 - Using -b all returns a large volume of results, including unrelated or historical domains
