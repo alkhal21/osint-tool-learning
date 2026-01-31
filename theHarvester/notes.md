@@ -10,7 +10,7 @@
   ```bash
   deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware
   ```
-  After running ```bash sudo apt update ```, installation worked fine.
+  After running sudo apt update, the installation worked fine.
 
 ## Command Usage Mistakes
 
