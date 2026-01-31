@@ -28,7 +28,7 @@ theHarvester -d <domain> -b <backend(source)> -l <limit>
 ```
 
 ### Example Commands Used
-```bash```
+```bash
 theHarvester -d example.com -b all
 theHarvester -d example.com -b google -l 500
 theHarvester -d example.com -b bing
