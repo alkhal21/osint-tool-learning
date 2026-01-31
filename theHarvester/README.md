@@ -29,10 +29,15 @@ theHarvester -d <domain> -b <backend(source)> -l <limit>
 ### Example Commands Used
 ```bash```
 theHarvester -d example.com -b all
+```bash```
 theHarvester -d example.com -b google -l 500
+```bash```
 theHarvester -d example.com -b bing
+```bash```
 theHarvester -d example.com -b duckduckgo
+```bash``
 theHarvester -d example.com -b crtsh
+```bash```
 theHarvester -d brave.com -b crtsh
 ```bash```
 
